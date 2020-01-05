@@ -13,5 +13,12 @@ block content
                     th 작성자
                     th 작성일
                     th 조회수
-                tbody    
+            tbody
+                each list in lists
+                    tr
+                        td= list.id    
+                        td= list.title    
+                        td= list.writer    
+                        td= list.wdate    
+                        td= list.rnum    
                     
